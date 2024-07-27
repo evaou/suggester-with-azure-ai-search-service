@@ -1,1 +1,1 @@
-# Auggester with Azure AI Search Service 
+# Suggester with Azure AI Search Service
