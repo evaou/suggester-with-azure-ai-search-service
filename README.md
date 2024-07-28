@@ -16,7 +16,7 @@
 
 ## <a name='WhatsSuggester'></a>What's Suggester?
 
-Azure AI Search service provides Suggester to support autocomplete and suggestion demand. We can create a Suggester in the index of Azure AI Search service and specify the source fields to automatically complete search terms and offer suggested result.
+Azure AI Search service provides Suggester to support autocomplete and suggestion demand. After adding an index in Azure AI Search service, we can create a Suggester and specify its source fields which are used to automatically complete search terms and offer suggested result. Finally we just upload the data which matches the index schema for further testing.
 
 ## <a name='SuggesterScenario'></a>Suggester Scenario
 
@@ -40,9 +40,9 @@ Azure AI Search service provides Suggester to support autocomplete and suggestio
 
 1. Open IndexService.sln in Visual Studio 2022
 1. In Solution Explorer, right click Solution and run the following steps in order
-	1. Clean Solution
-	1. Restore Nuget Packages
-	1. Build Solution
+	- Clean Solution
+	- Restore Nuget Packages
+	- Build Solution
 1. Start Debugging IndexService
 1. Check the added index and suggester
     - Index
